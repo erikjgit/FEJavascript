@@ -1,0 +1,25 @@
+.grid-container{
+    display:grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows:  50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+
+.tile-wall{
+    background-color: gray;
+}
+
+.tile-space{
+    background-color: black;
+}
+.tile-goal{
+    background-color: gold;
+}
+.entity-player{
+    background-color: blue;
+}
+.entity-block{
+    background-color: saddlebrown;
+}
+.entity-block-goal{
+    background-color:lime;
+}
